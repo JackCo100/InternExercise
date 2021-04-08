@@ -1,0 +1,53 @@
+body{
+  font-family: "Arial";
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+
+.logoHead {
+  width: 10%;
+}
+.schName {
+  width: 20%;
+}
+.logo{
+  width: 100%;
+}
+
+#img-grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.grid_element{
+  max-width: 20%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+table {
+  border: 1px solid black;
+}
+tbody{
+  border: 1px solid black;
+}
+th, td, tr{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
